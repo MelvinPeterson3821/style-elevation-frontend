@@ -1,0 +1,24 @@
+{
+  "name": "style-elevation-frontend",
+  "version": "1.0.0",
+  "description": "Style Elevation Webflow Frontend JavaScript",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && git add . && git commit -m 'Build for production' && git push"
+  },
+  "keywords": ["webflow", "style-elevation", "frontend"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-legacy": "^5.0.0"
+  },
+  "dependencies": {
+    "alpinejs": "^3.13.0",
+    "quill": "^1.3.7"
+  }
+}
